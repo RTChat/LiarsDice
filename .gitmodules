@@ -1,0 +1,3 @@
+[submodule "GameFrameRTC"]
+	path = GameFrameRTC
+	url = https://github.com/Thann/GameFrameRTC.git
