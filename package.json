@@ -1,0 +1,14 @@
+{
+  "name": "LiarsDice",
+  "private": true,
+  "description": "LiarsDice WebRTC",
+  "repository": "https://github.com/Thann/LiarsDice",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node ./GameFrameRTC/server.js --port 9002"
+  },
+  "license": "AGPL-3.0",
+  "dependencies": {},
+  "devDependencies": {
+  }
+}
