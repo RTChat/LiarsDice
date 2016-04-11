@@ -1621,11 +1621,7 @@
 	
 	// Extend WelcomePanel
 	module.exports = RTChat.Views.WelcomePanel.extend({
-		template: '<h2>Welcome To LiarsDice!</h2>\
-			built using the <a href="https://github.com/RTChat/RTChat">RTChat</a> framework!\
-			<br><br>\
-			<a class="btn btn-default" href="#global-chat">Go To global chat</a>\
-		'
+		template: '<h2>Welcome To LiarsDice!</h2>\n\t\tbuilt using the <a href="https://github.com/RTChat/RTChat">RTChat</a> framework!\n\t\t<br><br>\n\t\t<a class="btn btn-default" href="#global-chat">Go To global chat</a>\n\t'
 	});
 
 /***/ },
@@ -1644,8 +1640,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./welcome_panel.css", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./welcome_panel.css");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/sass-loader/index.js!./welcome_panel.css", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/sass-loader/index.js!./welcome_panel.css");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -1663,7 +1659,7 @@
 	
 	
 	// module
-	exports.push([module.id, "", ""]);
+	exports.push([module.id, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"welcome_panel.css","sourceRoot":"webpack://"}]);
 	
 	// exports
 
